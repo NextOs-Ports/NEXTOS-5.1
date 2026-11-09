@@ -2,9 +2,9 @@
 
 ## Situação das entregas
 
-A entrega **r186, UID 20261109002541**, preserva GitHub principal, R2 de reserva por HTTPS e assinatura Ed25519, sem credencial S3 permanente embarcada. Fonte `cd11c1ea2972a171d9eb57db5b2ab68ad7cfd3bf`.
+A entrega **r187, UID 20261109202337**, preserva GitHub principal, R2 de reserva por HTTPS e assinatura Ed25519, sem credencial S3 permanente embarcada. Fonte `4b987228b4d8dcec7f47d616fb7379eba7ba2d8e`.
 
-A imagem única inclui D905, TX9, X2, Aquário, Y7 e HK1 RBOX X4S 2 GB/SC2. O manifesto assinado publica exclusivamente o pacote nativo completo de 25 arquivos (`Nextos-5.1-20261109002541-update.zip`, formato `flat25` com SC2 normalizado em `files`, sem `representations`). Clientes modernos (`r178` segunda build até atuais) aplicam o pacote pelo canal usando o helper autenticado empacotado, com transação em 2 GiB (`SYSTEM` residente no armazenamento e base intacta no `BOOT`). Clientes antigos (`r170` até primeira `r178`) recusam de forma segura antes de tocar o `BOOT` e podem usar o lançador manual do pacote quando aplicável.
+A imagem única inclui D905, TX9, X2, Aquário, Y7 e HK1 RBOX X4S 2 GB/SC2. O manifesto assinado publica exclusivamente o pacote nativo completo de 25 arquivos (`Nextos-5.1-20261109202337-update.zip`, formato `flat25` com SC2 normalizado em `files`, sem `representations`). Clientes modernos (`r178` segunda build até atuais) aplicam o pacote pelo canal usando o helper autenticado empacotado, com transação em 2 GiB (`SYSTEM` residente no armazenamento e base intacta no `BOOT`). Clientes antigos (`r170` até primeira `r178`) recusam de forma segura antes de tocar o `BOOT` e podem usar o lançador manual do pacote quando aplicável.
 
 A r186 foi gerada pelo build padrão e aprovada após validação física no Aquário e no TX9, testes automatizados de saves/DraStic e verificação dos contratos de clientes históricos no PC. As novidades completas e limites de validação estão no [Histórico](HISTORICO.md).
 
@@ -51,3 +51,7 @@ Esta migração é da série 5.1. Os serviços e o acesso legado dos aparelhos 5
 Catálogos, capas, recursos públicos e configurações padrão usam um serviço HTTPS que permite apenas as operações, caminhos e formatos previstos. A ROM não recebe uma credencial S3 para listar ou ler livremente o armazenamento. As configurações padrão são produzidas a partir dos arquivos de fábrica, sem exportar contas ou dados de um aparelho utilizado.
 
 Os pacotes privados continuam separados e dependem da autorização do serviço de contas. A chave privada de assinatura, credenciais administrativas, senhas do operador e códigos de recuperação ficam fora da distribuição. A chave pública de assinatura é distribuída intencionalmente para verificar os arquivos.
+
+## Aviso de acompanhamento da r186
+
+Se a tela de atualização mostrar erro de acompanhamento, normalmente a atualização já ficou preparada: reinicie pelo menu e confira a versão em Informações; só repita se continuar a versão anterior.

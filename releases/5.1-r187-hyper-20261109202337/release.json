@@ -1,0 +1,25 @@
+{
+  "release_id": "5.1-r187-hyper-20261109202337",
+  "update_id": "20261109202337",
+  "version": "5.1",
+  "linux_kernel": "5.15.223",
+  "platform": "Amlogic-nx.aarch64",
+  "source_commit": "4b987228b4d8dcec7f47d616fb7379eba7ba2d8e",
+  "system_sha256": "3c56c4b50e02b107f43e2917aa74da0aef84fb277f889db18471e34768c84664",
+  "signing_key_id": "sha256:80cc6b45b270e49d0509bb0fc67acaae4d20d46c37a757804e45b3669253c039",
+  "assets": [
+    {
+      "name": "Nextos-5.1-20261109202337.img.gz",
+      "size": 1809644262,
+      "sha256": "37a3551f3ac24fe76d34722dd601d7779e98afa12c79d7f4326ce06d776a7564"
+    },
+    {
+      "name": "Nextos-5.1-20261109202337-update.zip",
+      "size": 1804374615,
+      "sha256": "904a05932955f9e2d6ac07527df88854a60eb44890cc37649c2fc08f55b1ec5b"
+    }
+  ],
+  "physical_validation_claimed": true,
+  "acceptance_basis": "Atualização física r186→r187 nos dois aparelhos; contratos e imagem conferidos no PC. Política de atualização e recuperação preservada como na r186.",
+  "release_url": "https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r187-hyper-20261109202337"
+}
