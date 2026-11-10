@@ -2,13 +2,13 @@
 
 ## Situação das entregas
 
-A entrega **r187, UID 20261109202337**, preserva GitHub principal, R2 de reserva por HTTPS e assinatura Ed25519, sem credencial S3 permanente embarcada. Fonte `4b987228b4d8dcec7f47d616fb7379eba7ba2d8e`.
+A entrega **r188, UID 20261110074749**, preserva GitHub principal, R2 de reserva por HTTPS e assinatura Ed25519, sem credencial S3 permanente embarcada. Fonte `476184464b074a61a5d4493e005825bcf1219bcd`.
 
-A imagem única inclui D905, TX9, X2, Aquário, Y7 e HK1 RBOX X4S 2 GB/SC2. O manifesto assinado publica exclusivamente o pacote nativo completo de 25 arquivos (`Nextos-5.1-20261109202337-update.zip`, formato `flat25` com SC2 normalizado em `files`, sem `representations`). Clientes modernos (`r178` segunda build até atuais) aplicam o pacote pelo canal usando o helper autenticado empacotado, com transação em 2 GiB (`SYSTEM` residente no armazenamento e base intacta no `BOOT`). Clientes antigos (`r170` até primeira `r178`) recusam de forma segura antes de tocar o `BOOT` e podem usar o lançador manual do pacote quando aplicável.
+A imagem única inclui D905, TX9, X2, Aquário, Y7 e HK1 RBOX X4S 2 GB/SC2. O manifesto assinado publica exclusivamente o pacote nativo completo de 25 arquivos (`Nextos-5.1-20261110074749-update.zip`, formato `flat25` com SC2 normalizado em `files`, sem `representations`). Clientes modernos (`r178` segunda build até atuais) aplicam o pacote pelo canal usando o helper autenticado empacotado, com transação em 2 GiB (`SYSTEM` residente no armazenamento e base intacta no `BOOT`). Clientes antigos (`r170` até primeira `r178`) recusam de forma segura antes de tocar o `BOOT` e podem usar o lançador manual do pacote quando aplicável.
 
-A r186 foi gerada pelo build padrão e aprovada após validação física no Aquário e no TX9, testes automatizados de saves/DraStic e verificação dos contratos de clientes históricos no PC. As novidades completas e limites de validação estão no [Histórico](HISTORICO.md).
+A candidata r188 foi gerada pelo build padrão com cache e passou na conferência da imagem e do pacote no PC; o QA dos dois aparelhos e o aceite P4 ainda estão pendentes. As novidades completas e limites de validação estão no [Histórico](HISTORICO.md).
 
-Releases retiradas e candidatas antigas não voltam a ser recomendadas; para instalações compatíveis, use o atualizador normal ou o ZIP legado pelo menu local, sem restaurar credenciais antigas. O GitHub é acessado sem conta/token GitHub; a reserva HTTPS entrega os mesmos bytes assinados.
+Releases retiradas e candidatas antigas não voltam a ser recomendadas; para instalações compatíveis, use o atualizador normal ou o pacote nativo -update.zip pelo lançador Atualizar Retro Elite.sh, quando aplicável, sem restaurar credenciais antigas. O GitHub é acessado sem conta/token GitHub; a reserva HTTPS entrega os mesmos bytes assinados.
 
 ## NEXTOS Exclusivos: vitrine e acesso à loja
 
@@ -52,6 +52,7 @@ Catálogos, capas, recursos públicos e configurações padrão usam um serviço
 
 Os pacotes privados continuam separados e dependem da autorização do serviço de contas. A chave privada de assinatura, credenciais administrativas, senhas do operador e códigos de recuperação ficam fora da distribuição. A chave pública de assinatura é distribuída intencionalmente para verificar os arquivos.
 
-## Aviso de acompanhamento da r186
 
-Se a tela de atualização mostrar erro de acompanhamento, normalmente a atualização já ficou preparada: reinicie pelo menu e confira a versão em Informações; só repita se continuar a versão anterior.
+## Aviso de acompanhamento em instalações anteriores
+
+Na atualização da r187 para a r188, o aviso de acompanhamento ainda pode aparecer uma vez. Se a tela de atualização mostrar erro de acompanhamento, normalmente a atualização já ficou preparada: reinicie pelo menu e confira a versão em Informações; só repita se continuar a versão anterior.

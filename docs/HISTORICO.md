@@ -13,7 +13,26 @@ Cada versão tem uma identificação única de atualização (**UID**), mostrada
 
 ## Versões publicadas no canal estável
 
-### NEXTOS 5.1 — UID 20261109202337 (r187 Hyper) · 09/11/2026 · **atual**
+### NEXTOS 5.1 — UID 20261110074749 (r188 Hyper) · 10/11/2026 · **atual**
+
+Fonte `476184464b074a61a5d4493e005825bcf1219bcd`. Atualização física r187 → r188 confirmada no TX9 e no Aquário.
+
+- Atualização: o acompanhamento continua funcionando quando o sistema demora a responder, evitando o aviso falso de que a atualização foi interrompida.
+- Atualização: a checagem automática ao abrir o menu é pulada quando uma atualização ainda está terminando, evitando o aviso de espera nessa hora.
+- TV antiga sem imagem: nos aparelhos GXL, a ROM escolhe RGB quando a TV não declara YCbCr 4:4:4 ou quando a identificação da TV falha; TVs que declaram esse formato continuam usando a mesma cor de antes.
+- Vídeo: quando a TV não declara o modo preferido do menu, a ROM tenta outra resolução compatível. Se a troca falhar, tenta voltar ao modo anterior, sem impedir a abertura do menu.
+- TV antiga sem imagem: opção COR HDMI para escolher Automático, RGB ou YCbCr 4:4:4. Se não conseguir ver o menu, crie hdmi-rgb.txt na raiz da partição BOOT do cartão ou peça ao suporte para ativar RGB.
+- Vídeo: corrigido nos aparelhos GXL o uso do escalador de imagem que podia deixar a tela preta ou o logo de fábrica por cima do menu após trocar a resolução. A troca por jogo usa a saída real, mantém o escalador ativo e restaura a janela do menu ao sair.
+- Informações e diagnóstico: mostram a resolução e a cor reais da saída HDMI e o motivo da escolha (por exemplo, RGB porque a TV não declara YCbCr 4:4:4).
+- Cartão novo: a resolução de fábrica do menu passa a ser 720p, a mesma que o menu já usava; quem atualiza mantém a configuração que tem.
+- DOS e ScummVM: a música MIDI sai pelo GeneralUser já configurado, sem precisar escolher nada; MT-32 fica disponível colocando os ROMs MT-32 em roms/bios. Escolhas já feitas pelo jogador são mantidas.
+- Diagnóstico: mostra se o Wi-Fi do aparelho aceita WPA3, chip por chip; redes mistas WPA2/WPA3 continuam funcionando como antes.
+
+[Release e integridade](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r188-hyper-20261110074749). Política de atualização e recuperação igual à r187.
+
+
+
+### NEXTOS 5.1 — UID 20261109202337 (r187 Hyper) · 09/11/2026
 
 Fonte `4b987228b4d8dcec7f47d616fb7379eba7ba2d8e`. Atualização física r186 → r187 confirmada no TX9 e no Aquário.
 
