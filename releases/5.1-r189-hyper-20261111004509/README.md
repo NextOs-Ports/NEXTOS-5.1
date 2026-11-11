@@ -1,0 +1,42 @@
+# Nextos 5.1 Hyper — r189
+
+UID **20261111004509** · Linux **5.15.223** · AArch64.
+
+## Novidades
+
+- Atualização sem travas: todas as versões 5.1 desde a r170, Andromeda ou Hyper, podem atualizar pelo menu nos aparelhos compatíveis, inclusive quando mudam o kernel e os arquivos de inicialização. Assinatura, conferência dos arquivos e retorno automático à versão anterior continuam protegendo a instalação.
+- BOOT que cabe: o preparo reorganiza os arquivos de inicialização para caber mesmo com a partição BOOT cheia, preservando a recuperação. Evita cópias duplicadas desnecessárias e regravações de arquivos equivalentes; mudanças de kernel ou de configuração do aparelho deixam de causar recusa por espaço nessa partição.
+- Auto-reparo da atualização: estados incompletos, registros danificados, sistema residente divergente e recuperação inconsistente são reconciliados com os arquivos reais. O atualizador reaproveita o que confere, reconstrói o necessário e preserva os arquivos de recuperação, em vez de pedir intervenção manual por esses estados.
+- Retomada após interrupção: ao tentar novamente, inclusive depois de reiniciar, o atualizador reconfere e reutiliza o pacote que já foi baixado. Pastas incompletas, arquivos corrompidos e temporários de tentativas anteriores são recuperados ou baixados novamente; o aviso de pacote ou pasta já existente deixa de impedir a continuação.
+- Download por arquivo: quando não cabe manter o ZIP inteiro junto dos arquivos extraídos, o atualizador pode baixar os arquivos do pacote separadamente. Cada trecho e cada arquivo são conferidos, mantendo a mesma assinatura e os mesmos hashes da atualização, com menor necessidade de espaço temporário.
+- Atualização em espera: pedidos simultâneos aguardam sua vez, sem abrir duas instalações juntas. Falhas transitórias de rede, resposta e início da operação são tentadas novamente; operações interrompidas podem ser retomadas. A espera continua cancelável e não se transforma em recusa apenas porque demorou.
+- Menu mais responsivo na atualização: a checagem antes de aplicar ou reiniciar acontece fora da interface. A reconferência de um pacote já baixado mostra mensagem e porcentagem, em vez de parecer travada. O acompanhamento continua durante o trabalho, e as mensagens de retomada explicam o próximo passo sem mandar procurar suporte ou copiar pastas.
+- Atualização sem sobras: após confirmar que o sistema novo iniciou corretamente, são apagados o pacote baixado, a extração temporária, os arquivos de entrada, a cópia de retorno da atualização, sistemas anteriores e backups de inicialização obsoletos criados pelo atualizador. Sobras reconhecidas de versões antigas também são limpas. A recuperação de segurança e o sistema atualmente instalado são preservados; jogos, saves e configurações não são apagados.
+- Oferta e versão instalada: o histórico local de tentativas não bloqueia uma entrega válida. Uma entrega renovada do mesmo sistema pode voltar a ser oferecida, e uma atualização já concluída é reconhecida como instalada, evitando repetir a oferta sem necessidade. Os transportes para versões antigas e novas entregam o mesmo sistema, escolhidos automaticamente pelo menu.
+- Aquário S905W2 de 2 GB: o cartão SD volta a operar a 50 MHz, com o ajuste de leitura do sistema de fábrica. As medidas de validação passaram de cerca de 11,6 para 19,5 MB/s na leitura e de 7,2 para 10,9 MB/s na escrita, com 2 GB gravados e relidos sem erro. O desempenho final depende do cartão; esta mudança de frequência não é anunciada para o perfil de 4 GB.
+- ROM menor e Aquário mais rápido: o download da imagem de fábrica ficou cerca de 240 MB menor (aproximadamente 1,81 para 1,57 GB), e o SYSTEM passou de 1,90 para 1,62 GB. Os módulos do Aquário caíram de cerca de 848 para 81 MB ao retirar apenas dados de depuração: mesmo código, mesmos drivers e mesma verificação de integridade e segurança. Com menos dados para ler, o menu apareceu em cerca de 40 segundos, em vez de 71 segundos, nos ensaios de validação; o tempo varia conforme o cartão e os periféricos.
+- Aquário: depois da primeira entrada pelo aplicativo Reiniciar Retro Elite, o cartão passa a ser o início padrão. Reinícios, atualizações e o retorno automático de recuperação continuam pelo cartão. O MODO SMART TV mantém a opção de voltar ao Android, sem formatar nem instalar a ROM no armazenamento interno.
+- Suporte por código: atendimento pelo menu com código de seis dígitos na tela, estado e prazo de até quatro horas, com opção de encerrar pelo próprio menu. Funciona de forma independente do suporte automático, inclusive quando a autorização automática está revogada.
+- Suporte automático individual: cada aparelho passa a ter sua própria identidade de suporte vinculada ao hardware. O cadastro só nasce após AUTORIZAR SUPORTE AUTOMÁTICO no menu e a conclusão pelo técnico. Copiar um cartão para outro aparelho não transfere a autorização: o outro aparelho precisa de identidade e consentimento próprios.
+- Suporte automático: corrigida a ativação após o pareamento, inclusive quando o serviço ainda não havia sido carregado. REVOGAR interrompe o acesso e comunica a retirada da autorização; o aparelho deixa de repetir contatos recusados sem manter o serviço em erro. AUTORIZAR novamente permite renovar o consentimento no mesmo aparelho e retomar sua presença, sem interferir no atendimento por código.
+- Segurança do suporte: o atendimento automático confere a identidade do aparelho, a identificação do hardware e a chave do destino antes de executar comandos. A sessão deve corresponder ao aparelho autorizado, evitando que o atendimento seja direcionado a outro dispositivo.
+- Chave SSH por aparelho: a chave genérica de identificação é substituída por uma chave própria na primeira inicialização ou após atualizar uma instalação que ainda a utilize. A recuperação preserva a chave individual do próprio aparelho; uma chave genérica não é reaproveitada como identidade de recuperação.
+- Limpeza da identidade de fábrica: instalações com o antigo cadastro de suporte pré-gravado voltam ao estado não autorizado, sem erro, e só recebem identidade nova após consentimento explícito. As imagens de fábrica foram limpas de cadastro e consentimento de suporte, chaves SSH compartilhadas, identificador de sistema pré-gravado, perfis de rede, logs, sessões e sobras de atualização anteriores.
+- Limites dos clientes r170–r188: essas versões ainda exigem 4 GiB livres no cartão antes de iniciar o download; libere espaço e tente novamente se necessário. A limpeza automática só entra depois que o código novo é instalado. Nessas versões antigas, confirme ao aparecer Atualização verificada: se desligar antes de confirmar, pode ser necessária uma nova entrega para a oferta reaparecer. O cliente desta versão corrige a retomada.
+- Primeira entrada no Aquário: em um aparelho que nunca iniciou pelo aplicativo, a primeira entrada continua sendo pelo aplicativo Reiniciar Retro Elite. Instalações da r170 até a primeira r178 também podem precisar dessa entrada uma vez após a primeira atualização. A partir daí, o início persistente pelo cartão fica disponível. As melhorias não alteram jogos, saves, BIOS ou escolhas do jogador.
+
+## Atualização
+
+Atualize pelo menu **ATUALIZAÇÕES & TRANSFERÊNCIAS → ATUALIZAR RETRO ELITE**. A oferta escolhe o transporte compatível com a versão instalada. Para uso manual, escolha **-unified-update.zip**.
+
+## Integridade
+
+Os mestres e SHA256SUMS são assinados com Ed25519 pela chave pública NX. Os arquivos automáticos “Source code” do GitHub não instalam a ROM.
+
+| Arquivo | Bytes | SHA-256 |
+|---|---:|---|
+| `Nextos-5.1-20261111004509-unified-update.zip` | 1562891092 | `6aa603549901f27238263963ccddc2f0f442ef392f1f1614a6d0cd4e3dc0d1f9` |
+| `Nextos-5.1-20261111004509-update.zip` | 1526704905 | `b756f7ef40b5a38eb8cb9d60104a3f01594352c18f35fd8d677a54652c75850f` |
+| `Nextos-5.1-20261111004509.img.gz` | 1568242533 | `4b0a97d5324a6658cbeef07c35600281c901e5c0c6c9c5045cce74258b817089` |
+
+SYSTEM: `d3474c63c24e589d5b229e1ba9f18359fe6fe74bf55361278a806498987d8c0a`.
