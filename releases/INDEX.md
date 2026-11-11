@@ -1,3 +1,5 @@
+- [Nextos 5.1 r189 · 20261111004509](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r189-hyper-20261111004509)
+
 # Releases da NEXTOS 5.1
 
 Entrega atual: **r188 · UID 20261110074749**, Linux 5.15.223.

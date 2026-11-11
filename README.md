@@ -1,3 +1,9 @@
+## Entrega atual — r189 Hyper
+
+UID `20261111004509`; atualização pelo menu para todas as 5.1 desde r170.
+
+[Release, limites e SHA-256](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r189-hyper-20261111004509). Para uso manual, escolha `Nextos-5.1-20261111004509-unified-update.zip`.
+
 <p align="center"><img src="assets/Nextos-5.1-cover.svg" alt="NEXTOS 5.1 — edição Nextos" width="100%"></p>
 
 <p align="center"><strong>Desempenho renovado. Fluidez no menu. Uma base técnica que evoluiu.</strong></p>

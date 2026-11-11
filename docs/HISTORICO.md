@@ -1,3 +1,7 @@
+## Nextos 5.1 r189 — UID 20261111004509
+
+Atualização física TX9/Aquário, mestre legacy17+flat25, recuperação e saves preservados.
+
 # NEXTOS 5.1 — Histórico de versões
 
 Este histórico separa duas coisas:
