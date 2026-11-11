@@ -1,0 +1,32 @@
+{
+  "release_id": "5.1-r189-hyper-20261111004509",
+  "update_id": "20261111004509",
+  "version": "5.1",
+  "revision": "r189-hyper",
+  "source_commit": "c3a4d6c721b90e8d2fcfdf0caad5f8ee4432c6bc",
+  "system_sha256": "d3474c63c24e589d5b229e1ba9f18359fe6fe74bf55361278a806498987d8c0a",
+  "signing_key_id": "sha256:80cc6b45b270e49d0509bb0fc67acaae4d20d46c37a757804e45b3669253c039",
+  "assets": [
+    {
+      "role": "flat25",
+      "name": "Nextos-5.1-20261111004509-unified-update.zip",
+      "size": 1562891092,
+      "sha256": "6aa603549901f27238263963ccddc2f0f442ef392f1f1614a6d0cd4e3dc0d1f9"
+    },
+    {
+      "role": "legacy17",
+      "name": "Nextos-5.1-20261111004509-update.zip",
+      "size": 1526704905,
+      "sha256": "b756f7ef40b5a38eb8cb9d60104a3f01594352c18f35fd8d677a54652c75850f"
+    },
+    {
+      "role": "image",
+      "name": "Nextos-5.1-20261111004509.img.gz",
+      "size": 1568242533,
+      "sha256": "4b0a97d5324a6658cbeef07c35600281c901e5c0c6c9c5045cce74258b817089"
+    }
+  ],
+  "physical_validation_claimed": true,
+  "acceptance_basis": "TX9 + Aquário pelo menu, recuperação, saves e retorno ao cartão",
+  "release_url": "https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r189-hyper-20261111004509"
+}
