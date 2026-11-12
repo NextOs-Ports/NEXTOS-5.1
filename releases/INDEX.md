@@ -1,3 +1,5 @@
+- [Nextos 5.1-r191-hyper · 20261112105149](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r191-hyper-20261112105149)
+
 - [Nextos 5.1-r190-hyper · 20261111195715](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r190-hyper-20261111195715)
 
 - [Nextos 5.1 r189 · 20261111004509](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r189-hyper-20261111004509)

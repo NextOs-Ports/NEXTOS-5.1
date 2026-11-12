@@ -1,3 +1,7 @@
+## Nextos 5.1-r191-hyper — UID 20261112105149
+
+Aquário: atualização nativa da r191 e boot confirmados, loja e abertura ELF32 validadas; provas dos componentes preservados do TX9/Mali-450 reutilizadas, sem nova rodada no TX9. Configurações preservadas.
+
 ## Nextos 5.1-r190-hyper — UID 20261111195715
 
 Atualização física TX9/Aquário, mestre legacy17+flat25, recuperação e saves preservados.
