@@ -1,3 +1,7 @@
+## Nextos 5.1-r193-hyper — UID 20261112205425
+
+Aquário atualizado pela atualização nativa: boot e integridade confirmados, controles/tema/RetroArch preservados. DuckTales ARM32, Sunshine pelo atalho GameCube e Marvel AArch64 abriram com imagem e encerraram por SELECT+START; provas de abertura/saída, sem certificação de gameplay/FPS. TX9: provas físicas da r192 reutilizadas para componentes preservados, sem nova atualização nesta rodada.
+
 ## Nextos 5.1-r192-hyper — UID 20261112165719
 
 TX9: atualização nativa da r192, boot e integridade confirmados, configurações preservadas. S4/Aquário: provas físicas dos componentes de atalho e shaders reutilizadas, com validação do carregador e da imagem no PC. Aquário em uso preservado, sem atualização nesta rodada.

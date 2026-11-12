@@ -1,3 +1,9 @@
+## Entrega atual — r193-hyper
+
+UID `20261112205425`; atualização pelo menu para todas as 5.1 desde r170.
+
+[Release, limites e SHA-256](https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r193-hyper-20261112205425). Para uso manual, escolha `Nextos-5.1-20261112205425-unified-update.zip`.
+
 ## Entrega atual — r192-hyper
 
 UID `20261112165719`; atualização pelo menu para todas as 5.1 desde r170.
