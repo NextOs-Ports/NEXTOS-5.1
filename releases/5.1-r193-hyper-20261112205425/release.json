@@ -1,0 +1,32 @@
+{
+  "release_id": "5.1-r193-hyper-20261112205425",
+  "update_id": "20261112205425",
+  "version": "5.1",
+  "revision": "r193-hyper",
+  "source_commit": "1e823ac31375ca088ff72efd08fe842f6c263f21",
+  "system_sha256": "ae63ff2c37ad3068c8e9670d633e23396715d0c6cc71418f0cc476bed5536c22",
+  "signing_key_id": "sha256:80cc6b45b270e49d0509bb0fc67acaae4d20d46c37a757804e45b3669253c039",
+  "assets": [
+    {
+      "role": "flat25",
+      "name": "Nextos-5.1-20261112205425-unified-update.zip",
+      "size": 1574701467,
+      "sha256": "14b22d00f9a630948f2c09c362b5dce61e0a76417d595d4a28d3711ff090d4a0"
+    },
+    {
+      "role": "legacy17",
+      "name": "Nextos-5.1-20261112205425-update.zip",
+      "size": 1538514319,
+      "sha256": "8de1e10b9a5e4b15b234d3fe51869573cc59a137e5e80e3dc377657d517aa4b1"
+    },
+    {
+      "role": "image",
+      "name": "Nextos-5.1-20261112205425.img.gz",
+      "size": 1580049146,
+      "sha256": "d4df751895a8d8d8c8c16a3dda1ea833a308e0e9f67f86576a980f825720e7cd"
+    }
+  ],
+  "physical_validation_claimed": true,
+  "acceptance_basis": "Aquário atualizado pela atualização nativa: boot e integridade confirmados, controles/tema/RetroArch preservados. DuckTales ARM32, Sunshine pelo atalho GameCube e Marvel AArch64 abriram com imagem e encerraram por SELECT+START; provas de abertura/saída, sem certificação de gameplay/FPS. TX9: provas físicas da r192 reutilizadas para componentes preservados, sem nova atualização nesta rodada.",
+  "release_url": "https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r193-hyper-20261112205425"
+}
