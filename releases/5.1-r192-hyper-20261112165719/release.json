@@ -1,0 +1,32 @@
+{
+  "release_id": "5.1-r192-hyper-20261112165719",
+  "update_id": "20261112165719",
+  "version": "5.1",
+  "revision": "r192-hyper",
+  "source_commit": "cab199caf1cdeff20485fe93b4dce37792199f07",
+  "system_sha256": "21f8ec5de71234a94aa1c5a348a86376ec9c7a89f773aeec3c86ccb05871e4cc",
+  "signing_key_id": "sha256:80cc6b45b270e49d0509bb0fc67acaae4d20d46c37a757804e45b3669253c039",
+  "assets": [
+    {
+      "role": "flat25",
+      "name": "Nextos-5.1-20261112165719-unified-update.zip",
+      "size": 1574698650,
+      "sha256": "0552df0c3ebcd25cd666c32b4a2e355aa4d0d959b197ed2d922691a6e0bde62b"
+    },
+    {
+      "role": "legacy17",
+      "name": "Nextos-5.1-20261112165719-update.zip",
+      "size": 1538511499,
+      "sha256": "907568b81f23918554919e8dc8c245586a448bffccd049f7153f7f81d39c0752"
+    },
+    {
+      "role": "image",
+      "name": "Nextos-5.1-20261112165719.img.gz",
+      "size": 1580042715,
+      "sha256": "8ccd0f9ac6527f49dbda85eda243f70f5e605f0c53d40daff355caa0af4ad75c"
+    }
+  ],
+  "physical_validation_claimed": true,
+  "acceptance_basis": "TX9: atualização nativa da r192, boot e integridade confirmados, configurações preservadas. S4/Aquário: provas físicas dos componentes de atalho e shaders reutilizadas, com validação do carregador e da imagem no PC. Aquário em uso preservado, sem atualização nesta rodada.",
+  "release_url": "https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r192-hyper-20261112165719"
+}
