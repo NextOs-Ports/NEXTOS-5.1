@@ -1,3 +1,7 @@
+## Nextos 5.1-r194-hyper — UID 20261113032648
+
+Aquário atualizado pela atualização nativa (canal QA) para 20261113032648: boot, integridade e dados preservados; 4 jogos da categoria 3DS Retro Elite 2 baixados pela loja nativa e abertos pelo ES até gameplay; exclusão pela lista 3DS sem órfãos e re-download; suporte automático pela Central (sessão, exec, encerramento). TX9 não atualizado por ordem do dono: mudanças só em código compartilhado da loja/desinstalador/categoria, sem componente GXL.
+
 ## Nextos 5.1-r193-hyper — UID 20261112205425
 
 Aquário atualizado pela atualização nativa: boot e integridade confirmados, controles/tema/RetroArch preservados. DuckTales ARM32, Sunshine pelo atalho GameCube e Marvel AArch64 abriram com imagem e encerraram por SELECT+START; provas de abertura/saída, sem certificação de gameplay/FPS. TX9: provas físicas da r192 reutilizadas para componentes preservados, sem nova atualização nesta rodada.
