@@ -1,0 +1,32 @@
+{
+  "release_id": "5.1-r194-hyper-20261113032648",
+  "update_id": "20261113032648",
+  "version": "5.1",
+  "revision": "r194-hyper",
+  "source_commit": "949bd08374a0d0ddb3070243146115f2e5bb1306",
+  "system_sha256": "7f9995f34c81ccc2e070e8200101a1ab4ee9785d72971ee52ec837224290d44c",
+  "signing_key_id": "sha256:80cc6b45b270e49d0509bb0fc67acaae4d20d46c37a757804e45b3669253c039",
+  "assets": [
+    {
+      "role": "flat25",
+      "name": "Nextos-5.1-20261113032648-unified-update.zip",
+      "size": 1574702213,
+      "sha256": "3f43e55006497be195b441ad81c64df501e93f1f97f2483b59dd57a647be373d"
+    },
+    {
+      "role": "legacy17",
+      "name": "Nextos-5.1-20261113032648-update.zip",
+      "size": 1538515068,
+      "sha256": "57de34c5d40e0a05f57fdd34a01a9bcfe9669ca546c802763b529e99d8707ec5"
+    },
+    {
+      "role": "image",
+      "name": "Nextos-5.1-20261113032648.img.gz",
+      "size": 1580049490,
+      "sha256": "4fec8aceedb28080d451edb5d88c3ab1daa1f572d4d669e207fc488ed3377bc4"
+    }
+  ],
+  "physical_validation_claimed": true,
+  "acceptance_basis": "Aquário atualizado pela atualização nativa (canal QA) para 20261113032648: boot, integridade e dados preservados; 4 jogos da categoria 3DS Retro Elite 2 baixados pela loja nativa e abertos pelo ES até gameplay; exclusão pela lista 3DS sem órfãos e re-download; suporte automático pela Central (sessão, exec, encerramento). TX9 não atualizado por ordem do dono: mudanças só em código compartilhado da loja/desinstalador/categoria, sem componente GXL.",
+  "release_url": "https://github.com/NextOs-Ports/NEXTOS-5.1/releases/tag/v5.1-r194-hyper-20261113032648"
+}
